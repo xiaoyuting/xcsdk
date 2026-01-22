@@ -1,0 +1,22 @@
+{
+  "name": "sdkSpec",
+  "version": "0.1.0",
+  "summary": "A short description of sdkSpec.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Xiaoyuting/sdkSpec",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Xiaoyuting": "479072483@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Xiaoyuting/sdkSpec.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "sdkSpec/Classes/**/*"
+}
