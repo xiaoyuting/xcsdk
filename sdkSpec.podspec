@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'sdkSpec'
+  s.name             = 'DataConfigSDK'
   s.version          = '0.0.2'
   s.summary          = 'A short description of sdkSpec.'
 
@@ -35,7 +35,7 @@ TODO: Add long description of the pod here.
  
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   
-  s.vendored_frameworks = ['sdkSpec/DataConfigSDK.xcframework'] #自己的framework在工程中的路径
+  s.vendored_frameworks = ['DataConfigSDK/DataConfigSDK.xcframework'] #自己的framework在工程中的路径
 
   s.dependency 'AgoraRtcEngine_iOS', '~> 4.6.0'
   s.dependency 'RongCloudIM/IMLib', '~> 5.28.0'
